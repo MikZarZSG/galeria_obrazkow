@@ -18,8 +18,13 @@ body
 {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 25px;
     width: 1200px;
+}
+
+.rzad
+{
+    margin-top: 25px;
 }
 
 .galeria
