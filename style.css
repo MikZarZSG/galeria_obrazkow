@@ -4,6 +4,7 @@ body
     color: #dddddd;
     margin: 0;
     font-family: 'Lato', sans-serif;
+    font-size: 16px;
 }
 
 .logo
@@ -29,14 +30,31 @@ body
 
 .galeria
 {
-    width: 250px;
-    height: 200px;
+    width: 246px;
+    min-height: 200px;
     margin-right: 40px;
-    background-color: tomato;
     float: left;
+    
+    border: 2px solid #222222;
 }
 
 .galeria:first-child
 {
     margin-left: 40px;
+}
+
+.galeria:hover
+{
+    border: 2px solid tomato;
+}
+
+.galeria img
+{
+    width: 100%;
+    height: auto;
+}
+
+.galeria .opis
+{
+    text-align: center;
 }
