@@ -52,6 +52,12 @@ body
 {
     width: 100%;
     height: auto;
+    opacity: 0.5;
+}
+
+.galeria img:hover
+{
+    opacity: 1;
 }
 
 .galeria .opis
