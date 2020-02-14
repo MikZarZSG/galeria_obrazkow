@@ -3,4 +3,13 @@ body
     background-color: #222222;
     color: #dddddd;
     margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.logo
+{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    padding: 20px;
 }
